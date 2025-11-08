@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
     title: "JuTemp教程",
     description: "相关服务教程合集",
+    base: '/docs/',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [{ text: "Home", link: "/" }],
