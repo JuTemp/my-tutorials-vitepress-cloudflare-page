@@ -13,8 +13,10 @@ export default defineConfig({
                 text: "相关服务教程合集",
                 items: [
                     { text: "Nekobox代理导入方法", link: "/nekobox-import-sub" },
+                    { text: "Nekobox代理更新方法", link: "/nekobox-update-sub" },
                     { text: "节点延迟情况", link: "/check-network-proxy-latency" },
                     { text: "ElementX第一次登陆", link: "/element-init" },
+                    { text: "ElementX多设备登陆", link: "/element-multi-devices" },
                 ],
             },
         ],

@@ -25,7 +25,7 @@
 
 ![image](./element-init/element-init_03.jpg)
 
-# 输入`matrix.tyu.im`
+# 输入`https://matrix.tyu.im`
 
 等待片刻 下面会显示`matrix.tyu.im` 点击显示出来的`matrix.tyu.im`
 

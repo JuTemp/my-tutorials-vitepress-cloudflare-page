@@ -17,8 +17,8 @@ hero:
 features:
   - title: Nekobox软件相关使用方法
     details: 提供Nekobox4A相关导入节点方法和更新方法
-  - title: 实时查看节点延迟
-    details: 提供实时查看节点延迟的页面
+  - title: ElementX软件相关使用方法
+    details: 提供第一次登陆和多设备登陆的方法
   # - title: Feature C
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
