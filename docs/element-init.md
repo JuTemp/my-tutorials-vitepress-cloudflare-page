@@ -1,5 +1,11 @@
 # 第一次使用Element X
 
+## 首先准备账户名和密码 私聊发送给奶瓶
+
+可以联系[jtp0415@outlook.com](mailto:jtp0415@outlook.com)
+
+**不接受App内注册**
+
 ## 下载地址
 
 [Github来源](https://github.com/element-hq/element-x-android/releases/download/v25.12.0/app-fdroid-arm64-v8a-release-signed.apk)
