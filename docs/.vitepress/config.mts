@@ -14,6 +14,7 @@ export default defineConfig({
                 items: [
                     { text: "Nekobox代理导入方法", link: "/nekobox-import-sub" },
                     { text: "节点延迟情况", link: "/check-network-proxy-latency" },
+                    { text: "ElementX第一次登陆", link: "/element-init" },
                 ],
             },
         ],
