@@ -17,6 +17,7 @@ export default defineConfig({
                     { text: "节点延迟情况", link: "/check-network-proxy-latency" },
                     { text: "ElementX第一次登陆", link: "/element-init" },
                     { text: "ElementX多设备登陆", link: "/element-multi-devices" },
+                    { text: "ElementX疑难杂症", link: "/element-troubleshoot" },
                 ],
             },
         ],
