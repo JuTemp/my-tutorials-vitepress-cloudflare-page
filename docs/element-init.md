@@ -24,15 +24,15 @@
 
 ![image](./element-init/element-init_01.jpg)
 
-# 选择更改账户提供方 *不是高亮的按钮*
+## 选择更改账户提供方 *不是高亮的按钮*
 
 ![image](./element-init/element-init_02.jpg)
 
-# 选择其他
+## 选择其他
 
 ![image](./element-init/element-init_03.jpg)
 
-# 输入`https://matrix.tyu.im`
+## 输入`https://matrix.tyu.im`
 
 等待片刻 下面会显示`matrix.tyu.im` 点击显示出来的`matrix.tyu.im`
 
@@ -44,41 +44,41 @@
 
 ![image](./element-init/element-init_04.jpg)
 
-# 继续
+## 继续
 
 ![image](./element-init/element-init_05.jpg)
 
-# 输入账户名和密码
+## 输入账户名和密码
 
 ![image](./element-init/element-init_06.jpg)
 
-# 第一次登陆选择无法确认
+## 第一次登陆选择无法确认
 
 ![image](./element-init/element-init_07.jpg)
 
-# 允许通知
+## 允许通知
 
 ![image](./element-init/element-init_08.jpg)
 
-# 帮助改进 我选择的是参与
+## 帮助改进 我选择的是参与
 
 ![image](./element-init/element-init_09.jpg)
 
-# 如果需要多设备登陆 点击设置恢复
+## 如果需要多设备登陆 点击设置恢复
 
 如果只有一个设备可以忽略
 
 ![image](./element-init/element-init_10.jpg)
 
-# 设置恢复
+## 设置恢复
 
 ![image](./element-init/element-init_11.jpg)
 
-# 生成恢复密钥
+## 生成恢复密钥
 
 ![image](./element-init/element-init_12.jpg)
 
-# 复制恢复密钥 或者保存到本地
+## 复制恢复密钥 或者保存到本地
 
 ::: danger
 恢复密钥非常重要，别人获得恢复密钥可以登陆你的账户
