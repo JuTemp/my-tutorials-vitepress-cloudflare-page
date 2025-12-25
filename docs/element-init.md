@@ -8,17 +8,23 @@
 
 ## 下载地址
 
-[Github来源](https://github.com/element-hq/element-x-android/releases/download/v25.12.0/app-fdroid-arm64-v8a-release-signed.apk)
+[Google Play下载](https://play.google.com/store/apps/details?id=io.element.android.x&hl=zh_cn)
 
-[F-droid来源](https://f-droid.org/repo/io.element.android.x_202512002.apk)
+需要梯子
 
-[代理Github来源](https://p.tyu.im/github.com/element-hq/element-x-android/releases/download/v25.12.0/app-fdroid-arm64-v8a-release-signed.apk)
-
-[代理F-droid来源](https://p.tyu.im/f-droid.org/repo/io.element.android.x_202512002.apk)
-
-上面两个需要使用梯子下载，下面两个不需要
-
-下载的内容没有区别，随意选择下载即可
+> 以下已废弃:
+>
+> [Github来源](https://github.com/element-hq/element-x-android/releases/download/v25.12.0/app-fdroid-arm64-v8a-release-signed.apk)
+> 
+> [F-droid来源](https://f-droid.org/repo/io.element.android.x_202512002.apk)
+> 
+> [代理Github来源](https://p.tyu.im/github.com/element-hq/element-x-android/releases/download/v25.12.0/app-fdroid-arm64-v8a-release-signed.apk)
+> 
+> [代理F-droid来源](https://p.tyu.im/f-droid.org/repo/io.element.android.x_202512002.apk)
+> 
+> 上面两个需要使用梯子下载，下面两个不需要
+> 
+> 下载的内容没有区别，随意选择下载即可
 
 ## 下载完成打开Element X 选择手动登陆
 

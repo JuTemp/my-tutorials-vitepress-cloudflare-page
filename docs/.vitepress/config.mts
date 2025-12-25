@@ -18,6 +18,7 @@ export default defineConfig({
                     { text: "ElementX第一次登陆", link: "/element-init" },
                     { text: "ElementX多设备登陆", link: "/element-multi-devices" },
                     { text: "ElementX疑难杂症", link: "/element-troubleshoot" },
+                    { text: "Ntfy订阅链接", link: "/ntfy-sub" },
                 ],
             },
         ],
