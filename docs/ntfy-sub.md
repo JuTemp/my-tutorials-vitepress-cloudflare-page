@@ -28,10 +28,6 @@
 
 ![image](./ntfy-sub/ntfy-sub_03.jpg)
 
-::: tip
-到这里已经订阅成功了，以下为可选项
-:::
-
 ## 点右上角三个点
 
 ![image](./ntfy-sub/ntfy-sub_04.jpg)
