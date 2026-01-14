@@ -28,15 +28,15 @@
 
 ## 下载完成打开Element X 选择手动登陆
 
-![image](./element-init/element-init_01.jpg)
+![image](./init/01.jpg)
 
 ## 选择更改账户提供方 *不是高亮的按钮*
 
-![image](./element-init/element-init_02.jpg)
+![image](./init/02.jpg)
 
 ## 选择其他
 
-![image](./element-init/element-init_03.jpg)
+![image](./init/03.jpg)
 
 ## 输入`https://matrix.tyu.im`
 
@@ -48,41 +48,41 @@
 如果还是不显示 联系奶瓶 可能是服务器宕机了
 :::
 
-![image](./element-init/element-init_04.jpg)
+![image](./init/04.jpg)
 
 ## 继续
 
-![image](./element-init/element-init_05.jpg)
+![image](./init/05.jpg)
 
 ## 输入账户名和密码
 
-![image](./element-init/element-init_06.jpg)
+![image](./init/06.jpg)
 
 ## 第一次登陆选择无法确认
 
-![image](./element-init/element-init_07.jpg)
+![image](./init/07.jpg)
 
 ## 允许通知
 
-![image](./element-init/element-init_08.jpg)
+![image](./init/08.jpg)
 
 ## 帮助改进 我选择的是参与
 
-![image](./element-init/element-init_09.jpg)
+![image](./init/09.jpg)
 
 ## 如果需要多设备登陆 点击设置恢复
 
 如果只有一个设备可以忽略
 
-![image](./element-init/element-init_10.jpg)
+![image](./init/10.jpg)
 
 ## 设置恢复
 
-![image](./element-init/element-init_11.jpg)
+![image](./init/11.jpg)
 
 ## 生成恢复密钥
 
-![image](./element-init/element-init_12.jpg)
+![image](./init/12.jpg)
 
 ## 复制恢复密钥 或者保存到本地
 
@@ -94,7 +94,7 @@
 如果丢失可以在这里重新生成
 :::
 
-![image](./element-init/element-init_13.jpg)
+![image](./init/13.jpg)
 
 ## 备注
 
@@ -102,6 +102,6 @@
 有任何问题可以联系奶瓶，比如多设备登陆或者恢复聊天记录
 :::
 
-<!-- ![image](./element-init/element-init_14.jpg) -->
-<!-- ![image](./element-init/element-init_15.jpg) -->
+<!-- ![image](./init/14.jpg) -->
+<!-- ![image](./init/15.jpg) -->
 

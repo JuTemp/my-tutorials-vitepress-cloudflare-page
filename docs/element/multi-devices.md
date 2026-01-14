@@ -6,11 +6,11 @@
 
 如果没有，点击`输入恢复密钥`
 
-![image](./element-multi-devices/element-multi-devices_01.jpg)
+![image](./multi-devices/01.jpg)
 
 ## 输入第一次登陆时保存的恢复密钥
 
-![image](./element-multi-devices/element-multi-devices_02.jpg)
+![image](./multi-devices/02.jpg)
 
 ## 点击继续
 
@@ -18,7 +18,7 @@
 
 如果密钥不对，请输入正确的密钥
 
-![image](./element-multi-devices/element-multi-devices_03.jpg)
+![image](./multi-devices/03.jpg)
 
 ## 备注
 

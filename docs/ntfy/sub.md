@@ -8,7 +8,7 @@
 
 ## 点开 Ntfy
 
-![image](./ntfy-sub/ntfy-sub_01.jpg)
+![image](./sub/01.jpg)
 
 ## 输入订阅的Id和域名
 
@@ -22,23 +22,23 @@
 
 如果没有使用过需要完整输入 不能省略`https://`
 
-![image](./ntfy-sub/ntfy-sub_02.jpg)
+![image](./sub/02.jpg)
 
 ## 订阅成功
 
-![image](./ntfy-sub/ntfy-sub_03.jpg)
+![image](./sub/03.jpg)
 
 ## 点右上角三个点
 
-![image](./ntfy-sub/ntfy-sub_04.jpg)
+![image](./sub/04.jpg)
 
 ## 点订阅设置
 
-![image](./ntfy-sub/ntfy-sub_05.jpg)
+![image](./sub/05.jpg)
 
 ## 点显示名 这里可以修改显示名字
 
-![image](./ntfy-sub/ntfy-sub_06.jpg)
+![image](./sub/06.jpg)
 
 ::: tip
 也可以修改Logo
@@ -58,4 +58,4 @@
 `https://ntfy-cf.tyu.im` 只实现了Websocket Endpoint，没有实现HTTP Endpoint
 :::
 
-![image](./ntfy-sub/ntfy-sub_07.jpg)
+![image](./sub/07.jpg)

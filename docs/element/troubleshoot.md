@@ -2,17 +2,17 @@
 
 ## 进入App详细信息，点击耗电管理
 
-![image](./element-troubleshoot/element-troubleshoot_01.jpg)
+![image](./troubleshoot/01.jpg)
 
 ## 完全允许后台行为
 
 作为即时聊天软件，必须保持后台运行
 
-![image](./element-troubleshoot/element-troubleshoot_02.jpg)
+![image](./troubleshoot/02.jpg)
 
 ## App详细信息，点击通知管理，允许通知
 
-![image](./element-troubleshoot/element-troubleshoot_03.jpg)
+![image](./troubleshoot/03.jpg)
 
 ## 在设置里搜索自启动选项
 
@@ -20,11 +20,11 @@
 自启动选项不在App详细信息里面，要在设置里面搜索
 :::
 
-![image](./element-troubleshoot/element-troubleshoot_04.jpg)
+![image](./troubleshoot/04.jpg)
 
 ## 允许Element X自启动
 
-![image](./element-troubleshoot/element-troubleshoot_05.jpg)
+![image](./troubleshoot/05.jpg)
 
 ## 备注
 
