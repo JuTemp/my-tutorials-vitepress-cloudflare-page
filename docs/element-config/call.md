@@ -122,14 +122,6 @@ rtc:
   use_external_ip: true
 logging:
   level: info
-turn:
-  enabled: true
-  domain: call.example.com
-  cert_file: /acme.sh/call.example.com.crt
-  key_file: /acme.sh/call.example.com.key
-  tls_port: 5349
-  udp_port: 443
-  external_tls: false
 keys:
   <32-character string>: <64-character string>
 ```
