@@ -24,7 +24,7 @@ export default {
                 },
             },
             {
-                documentRootPath: "/docs",
+                documentRootPath: "/",
                 collapsed: false,
                 capitalizeFirst: true,
                 useTitleFromFileHeading: true,
