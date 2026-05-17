@@ -2,9 +2,9 @@
 
 ## 下载安装 NekoBoxForAndroid
 
-[国外下载地址(Github)](https://github-release.tyu.im/redirect?name=nekobox&platform=arm64-v8a)
+[国外下载地址(Github)](https://nekobox.tyu.im)
 
-[国内下载地址(Proxy4Github)](https://p.tyu.im/https://github-release.tyu.im/redirect?name=nekobox&platform=arm64-v8a)
+[国内下载地址(Proxy4Github)](https://p.tyu.im/https://nekobox.tyu.im)
 
 ## 打开 NekoBox
 
@@ -14,7 +14,7 @@
 
 ![image](./import-sub/02.jpg)
 
-## 点击第三行 **路由**
+## 点击第二行 **分组**
 
 ![image](./import-sub/03.jpg)
 
