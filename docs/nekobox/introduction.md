@@ -6,7 +6,7 @@
 
 挺好用的，IIJ线路，就是偶尔会掉线（差不多一年10次吧，一次持续两三天）
 
-::: details mtr
+::: details mtr 南京工业大学电信出口
 ```plain{12-14}
 HOST: telecom-server       Loss%   Snt   Last   Avg  Best  Wrst StDev
   1.|-- ???                100.0    10    0.0   0.0   0.0   0.0   0.0
@@ -27,38 +27,41 @@ HOST: telecom-server       Loss%   Snt   Last   Avg  Best  Wrst StDev
 ```
 :::
 
-- Ali 日本东京
-
-别用，延迟高而且还不稳定
-
-::: details mtr
+::: details ippure
 ```plain
-HOST: telecom-server                   Loss%   Snt   Last   Avg  Best  Wrst StDev
-  1.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
-  2.|-- 58.213.118.129                  0.0%    10    0.9   1.0   0.9   1.3   0.1
-  3.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
-  4.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
-  5.|-- 218.2.126.49                   60.0%    10    2.0   1.8   1.7   2.0   0.2
-  6.|-- 202.97.52.53                   50.0%    10    6.8   6.8   6.7   6.9   0.1
-  7.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
-  8.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
-  9.|-- softbank221111179213.bbtec.net  0.0%    10   72.2  71.5  70.9  73.1   0.7
- 10.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
- 11.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
- 12.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
- 13.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
- 14.|-- ???                            100.0    10    0.0   0.0   0.0   0.0   0.0
- 15.|-- 8.216.16.170                   30.0%    10   54.5  54.3  54.0  54.6   0.2
+IP
+  156.231.117.*
+ASN
+  AS61112 - AkileCloud Network
+AS域名
+  akilecloud.com
+IP范围
+  156.231.116.0 - 156.231.117.255
+人机流量比
+  human 51.80% bot 48.20%
+位置
+  Cloudflare 🇯🇵 Japan, Tokyo, Tokyo
+  IP2Location 🇯🇵 Japan, Tokyo, Tokyo
+  DB-IP 🇯🇵 Japan, Tokyo, Shibuya City
+  MaxMind 🇯🇵 Japan, Tokyo, Tokyo
+  IPInfo.io 🇯🇵 Japan, Tokyo, Tokyo
+  Bilibili 🇯🇵 日本, 东京都, 东京
+IP来源
+  广播IP
+IP属性
+  机房IP
+IPPure系数
+  42% 轻度风险
+Cloudflare系数
+  1% 极度纯净
 ```
 :::
 
 - Yecao 香港/美国洛杉矶
 
-NTT线路，大带宽但是晚高峰时间段很卡
+NTT线路，大带宽但是晚高峰时间段很卡，似乎也是AS9929
 
-似乎也是AS9929吗
-
-::: details mtr
+::: details mtr 南京工业大学电信出口
 ```plain{8-9,11,14}
 HOST: telecom-server                         Loss%   Snt   Last   Avg  Best  Wrst StDev
   1.|-- ???                                  100.0    10    0.0   0.0   0.0   0.0   0.0
@@ -81,11 +84,41 @@ HOST: telecom-server                         Loss%   Snt   Last   Avg  Best  Wrs
 ```
 :::
 
+::: details ippure
+```plain
+IP
+  38.55.193.*
+ASN
+  AS139659 - LUCIDACLOUD LIMITED
+AS域名
+  yecaoyun.com
+IP范围
+  38.55.192.0 - 38.55.195.255
+人机流量比
+  human 15.19% bot 84.81%
+位置
+  Cloudflare 🇭🇰 Hong Kong, Tung Chung
+  IP2Location 🇺🇸 United States, California, Los Angeles
+  DB-IP 🇭🇰 Hong Kong, Kowloon, Hong Kong
+  MaxMind 🇺🇸 United States
+  IPInfo.io 🇭🇰 Hong Kong, Islands, Tung Chung
+  Bilibili 🇨🇳 中国, 香港
+IP来源
+  原生IP
+IP属性
+  机房IP
+IPPure系数
+  28% 中性
+Cloudflare系数
+  2% 极度纯净
+```
+:::
+
 - Hbyzn 香港
 
 AS9929的线路，只有20Mbps，带宽不大但是稳定，晚高峰也不卡
 
-::: details mtr
+::: details mtr 南京工业大学电信出口
 ```plain{8-15}
 HOST: telecom-server                              Loss%   Snt   Last   Avg  Best  Wrst StDev
   1.|-- ???                                       100.0    10    0.0   0.0   0.0   0.0   0.0
@@ -103,6 +136,42 @@ HOST: telecom-server                              Loss%   Snt   Last   Avg  Best
  13.|-- ae-20.a01.newthk04.hk.bb.gin.ntt.net      10.0%    10  135.6 141.4 133.6 155.6   7.6
  14.|-- xe-2-5-1-1.a01.newthk04.hk.ce.gin.ntt.net  0.0%    10   31.5  31.6  31.5  32.2   0.2
  15.|-- ???                                       100.0    10    0.0   0.0   0.0   0.0   0.0
- 16.|-- 156.239.235.27                             0.0%    10   32.4  32.6  32.3  34.3   0.6
+ 16.|-- 156.239.235.*                             0.0%    10   32.4  32.6  32.3  34.3   0.6
 ```
+:::
+
+::: details ippure
+```plain
+IP
+  156.239.235.*
+ASN
+  AS154321 - CORENET CLOUD SDN. BHD.
+AS域名
+  corenetcloud.com
+IP范围
+  156.239.224.0 - 156.239.239.255
+人机流量比
+  human 39.07% bot 60.93%
+位置
+  Cloudflare 🇭🇰 Hong Kong, Tung Chung
+  IP2Location 🇭🇰 Hong Kong, Hong Kong, Hong Kong
+  DB-IP 🇭🇰 Hong Kong, Kowloon, Hong Kong
+  MaxMind 🇸🇨 Seychelles
+  IPInfo.io 🇭🇰 Hong Kong, Islands, Tung Chung
+  Bilibili 🇺🇸 美国, 加利福尼亚州, 洛杉矶
+IP来源
+  原生IP
+IP属性
+  机房IP
+IPPure系数
+  63% 中度风险
+Cloudflare系数
+  2% 极度纯净
+```
+:::
+
+---
+
+::: warning
+如果你想挂梯子连接X，请使用同一个节点。可以偶尔换ip，但是不能经常换。
 :::

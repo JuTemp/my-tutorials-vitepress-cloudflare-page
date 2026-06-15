@@ -2,9 +2,21 @@
 
 ## 下载安装 NekoBoxForAndroid
 
-[国外下载地址(Github)](https://nekobox.tyu.im)
+[国外下载地址](https://nekobox.tyu.im)
 
-[国内下载地址(Proxy4Github)](https://p.tyu.im/https://nekobox.tyu.im)
+[国内下载地址](https://p.tyu.im/https://nekobox.tyu.im)
+
+## 下载安装 Naive 插件
+
+[国外下载地址](https://nekobox.tyu.im/plugin/naive)
+
+[国内下载地址](https://p.tyu.im/https://nekobox.tyu.im/plugin/naive)
+
+## 下载安装 Mieru 插件
+
+[国外下载地址](https://nekobox.tyu.im/plugin/mieru)
+
+[国内下载地址](https://p.tyu.im/https://nekobox.tyu.im/plugin/mieru)
 
 ## 打开 NekoBox
 
