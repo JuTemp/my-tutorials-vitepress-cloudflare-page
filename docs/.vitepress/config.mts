@@ -24,7 +24,7 @@ export default {
                 },
             },
             {
-                documentRootPath: "/",
+                documentRootPath: process.env.APP_ENV === "dev" ? "/docs" : "/",
                 collapsed: false,
                 capitalizeFirst: true,
                 useTitleFromFileHeading: true,

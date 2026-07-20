@@ -3,6 +3,7 @@
     "vitepress-sidebar": "^1.33.1"
   },
   "devDependencies": {
+    "@types/node": "^26.1.1",
     "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^2.0.0-alpha.12"
   },
