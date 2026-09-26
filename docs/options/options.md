@@ -52,9 +52,16 @@ $$
 
 当期货价格变动 $\Delta S$，时间流逝 $\Delta t$，隐含波动率变动 $\Delta \sigma$，无风险利率变动 $\Delta r$ 时， 持仓收益变动 $P\&L$。
 
-期货：$S_0 + \Delta S$
+期货：
 
-期权：$f_0 + Delta \Delta S + \frac{1}{2} Gamma (\Delta S)^2 + Theta \Delta t + Vega \Delta \sigma$
+$$
+S_0 + \Delta S
+$$
+
+期权：
+$$
+f_0 + Delta \Delta S + \frac{1}{2} Gamma (\Delta S)^2 + Theta \Delta t + Vega \Delta \sigma
+$$
 
 Delta: 越ITM越大 越OTM越小
 
