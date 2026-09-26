@@ -21,6 +21,9 @@ export default {
                             link: "mailto:jtp0415@outlook.com",
                         },
                     ],
+                    outline: {
+                        level: [2, 3],
+                    },
                 },
             },
             {

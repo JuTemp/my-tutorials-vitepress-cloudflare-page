@@ -40,6 +40,10 @@ $$
 C - P = S - K e ^ {- r t}
 $$
 
+也就是说：买入看涨期权 + 卖出看跌期权 = 现价买入标的物 + 行权价卖出标的物
+
+对应：+ Call - Put = + Stock - Strike
+
 ## Greeks 希腊字母
 
 $$
@@ -178,3 +182,94 @@ Vega:
 | :-: | :-: | :-: | :-: |
 | - | - ➤ + | + ➤ - | - ➤ + |
 
+### Synthetic Long Future 合成买入标的资产
+
+买入看涨期权 + 卖出看跌期权 = 买入标的资产
+
+构造：
+- 买入一份看涨期权
+- 卖出一份看跌期权
+
+![Chart](./images/long-combination.png)
+
+| Delta | Gamma | Theta | Vega |
+| :-: | :-: | :-: | :-: |
+| 1 | 0 | 0 | 0 |
+
+### Synthetic Short Future 合成卖出标的资产
+
+卖出看涨期权 + 买入看跌期权 = 卖出标的资产
+
+构造：
+- 卖出一份看涨期权
+- 买入一份看跌期权
+
+![Chart](./images/short-combination.png)
+
+| Delta | Gamma | Theta | Vega |
+| :-: | :-: | :-: | :-: |
+| -1 | 0 | 0 | 0 |
+
+### Synthetic Long Call 合成买入看涨期权
+
+买入看跌期权 + 买入标的资产 = 买入看涨期权
+
+常用的是: 买入虚值看涨期权 + 买入标的资产 = 买入实值看涨期权
+
+构造：
+- 买入一份标的资产
+- 买入一份行权价为A的看跌期权
+
+![Chart](./images/long-call.png)
+
+| Delta | Gamma | Theta | Vega |
+| :-: | :-: | :-: | :-: |
+| + | + | - | + |
+
+### Synthetic Long Put 合成买入看跌期权
+
+买入看涨期权 + 卖出标的资产 = 买入看跌期权
+
+常用的是: 买入虚值看涨期权 + 卖出标的资产 = 买入实值看跌期权
+
+构造：
+- 卖出一份标的资产
+- 买入一份行权价为A的看涨期权
+
+![Chart](./images/long-put.png)
+
+| Delta | Gamma | Theta | Vega |
+| :-: | :-: | :-: | :-: |
+| - | + | - | + |
+
+### Synthetic Long Call 合成卖出看涨期权
+
+卖出看跌期权 + 卖出标的资产 = 卖出看涨期权
+
+常用的是: 卖出虚值看涨期权 + 卖出标的资产 = 卖出实值看涨期权
+
+构造：
+- 卖出一份标的资产
+- 卖出一份行权价为A的看跌期权
+
+![Chart](./images/short-call.png)
+
+| Delta | Gamma | Theta | Vega |
+| :-: | :-: | :-: | :-: |
+| - | - | + | - |
+
+### Synthetic Short Put 合成卖出看跌期权
+
+卖出看涨期权 + 买入标的资产 = 卖出看跌期权
+
+常用的是: 卖出虚值看涨期权 + 买入标的资产 = 卖出实值看跌期权
+
+构造：
+- 买入一份标的资产
+- 卖出一份行权价为A的看涨期权
+
+![Chart](./images/short-put.png)
+
+| Delta | Gamma | Theta | Vega |
+| :-: | :-: | :-: | :-: |
+| + | - | + | - |
