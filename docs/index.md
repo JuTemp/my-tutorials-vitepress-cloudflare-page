@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Element 相关
       link: /element/init.html
+    - theme: alt
+      text: 期权相关
+      link: /options/options.html
 
 features:
   - title: Nekobox 软件相关使用方法
@@ -21,6 +24,10 @@ features:
     details: 提供第一次登陆和多设备登陆的方法
   - title: Ntfy 软件相关使用方法
     details: 提供订阅的方法
+  - title: 期权简介
+    details: 介绍期权的基础知识、希腊字母和常用的期权策略
+  - title: 常用的 RGB 颜色
+    details: 记录一下常用的渐变色和对比色
   # - title: Feature C
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
