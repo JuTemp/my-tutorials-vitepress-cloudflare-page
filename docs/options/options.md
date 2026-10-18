@@ -69,7 +69,7 @@ Gamma: 越ATM越大 越往两边越小
 
 Theta: 越邻近到期越大
 
-Vega: 
+Vega: 越ATM越大，越往两边越小
 
 ## 期权策略
 
@@ -105,7 +105,7 @@ Vega:
 
 ### Short Call 卖出看涨期权
 
-看小涨，卖看跌
+看小跌，卖看涨
 
 承担以行权价格卖出股票的义务，得到权利金
 
@@ -120,7 +120,7 @@ Vega:
 
 ### Short Put 卖出看跌期权
 
-看小跌，买看涨
+看小涨，卖看跌
 
 承担以行权价格买入股票的义务，得到权利金
 
@@ -133,11 +133,11 @@ Vega:
 | :-: | :-: | :-: | :-: |
 | + | - | + | - |
 
-### Long Call Spread 牛市看涨价差策略
+### Bull Call Spread (Debit) 牛市看涨价差策略 (支付权利金)
 
 买低卖高就是做多价差
 
-![Chart](./images/long-call-spread.png)
+![Chart](./images/long-spread.png)
 
 构造：
 - 买入一份行权价为A的看涨期权
@@ -147,11 +147,11 @@ Vega:
 | :-: | :-: | :-: | :-: |
 | + | + ➤ - | - ➤ + | + ➤ - |
 
-### Long Put Spread 牛市看跌价差策略
+### Bull Put Spread (Credit) 牛市看跌价差策略 (收到权利金)
 
 买低卖高就是做多价差
 
-![Chart](./images/long-put-spread.png)
+![Chart](./images/long-spread.png)
 
 构造：
 - 买入一份行权价为A的看跌期权
@@ -159,13 +159,13 @@ Vega:
 
 | Delta | Gamma | Theta | Vega |
 | :-: | :-: | :-: | :-: |
-| + | + ➤ - | - ➤ + | + ➤ - |
+| + | - ➤ + | + ➤ - | - ➤ + |
 
-### Short Call Spread 熊市看涨价差策略
+### Bear Call Spread (Credit) 熊市看涨价差策略 (收到权利金)
 
 买高卖低就是做空价差
 
-![Chart](./images/short-call-spread.png)
+![Chart](./images/short-spread.png)
 
 构造：
 - 卖出一份行权价为A的看涨期权
@@ -175,19 +175,19 @@ Vega:
 | :-: | :-: | :-: | :-: |
 | - | - ➤ + | + ➤ - | - ➤ + |
 
-### Short Put Spread 熊市看跌价差策略
+### Bear Put Spread (Debit) 熊市看跌价差策略 (支付权利金)
 
 买高卖低就是做空价差
 
-![Chart](./images/short-put-spread.png)
+![Chart](./images/short-spread.png)
 
 构造：
-- 买入一份行权价为A的看跌期权
-- 卖出一份行权价为B的看跌期权
+- 卖出一份行权价为A的看跌期权
+- 买入一份行权价为B的看跌期权
 
 | Delta | Gamma | Theta | Vega |
 | :-: | :-: | :-: | :-: |
-| - | - ➤ + | + ➤ - | - ➤ + |
+| - | + ➤ - | - ➤ + | + ➤ - |
 
 ### Synthetic Long Future 合成买入标的资产
 
@@ -221,7 +221,7 @@ Vega:
 
 买入看跌期权 + 买入标的资产 = 买入看涨期权
 
-常用的是: 买入虚值看涨期权 + 买入标的资产 = 买入实值看涨期权
+常用的是: 买入虚值看跌期权 + 买入标的资产 = 买入实值看涨期权
 
 构造：
 - 买入一份标的资产
@@ -249,11 +249,11 @@ Vega:
 | :-: | :-: | :-: | :-: |
 | - | + | - | + |
 
-### Synthetic Long Call 合成卖出看涨期权
+### Synthetic Short Call 合成卖出看涨期权
 
 卖出看跌期权 + 卖出标的资产 = 卖出看涨期权
 
-常用的是: 卖出虚值看涨期权 + 卖出标的资产 = 卖出实值看涨期权
+常用的是: 卖出虚值看跌期权 + 卖出标的资产 = 卖出实值看涨期权
 
 构造：
 - 卖出一份标的资产
